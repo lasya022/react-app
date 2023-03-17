@@ -130,7 +130,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    margin-left: 12px;
+    margin-left: 15px;
     color: #000000;
 }
 .list {
@@ -231,6 +231,7 @@ span {
 }
 .img1 {
     margin-left: 6px;
+    margin-top: 5px;
 }
 /* Responsive Properties */
 @media screen and (max-width:912px) {
