@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+/* Header Cards */
+.cards {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 15px;
+    margin-right: 24px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    height: 101px;
+    margin-top: 10px;
+}
+.parent {
+    margin-left: 10px;
+}
+.header {
+    display: flex;
+
+}
+.imagediv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-box {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.purple-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DCC0EC;
+}
+.eight {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.imag {
+    margin-top: -13px;
+    margin-left: 11px;
+}
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3E876;
+}
+.sidearrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9ED2C0;
+}
+.blue-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF9990;
+}
+/* Companies Onboarded div */
+.Amazon {
+    margin-left: 19px;
+}
+.min-divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.imge {
+    border-radius: 4px;
+}
+.sidearrow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onboard {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000080;
+}
+/* Applied Candidates List */
+.applied {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 383px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 12px;
+    color: #000000;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.extra {
+    display: flex;
+}
+.Position {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+span {
+    color: black !important;
+}
+.main {
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.left {
+    margin-right: 20px;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 634px;
+    padding: 15px;
+}
+.bottom-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Table */
+.div {
+    box-sizing: border-box;
+    margin-top: 24px;
+    height: 330px;
+    width: 1036px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.table-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.RecentlyPostedJobs {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.btns {
+    padding: 7px;
+    color: #66D7D1;
+    background: #E6FFFE;
+    border-radius: 4px;
+    width: 117px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+.ViewAllParagraph {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.View-All {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.img1 {
+    margin-left: 6px;
+}
+/* Responsive Properties */
+@media screen and (max-width:912px) {
+    .header {
+        overflow: scroll;
+        align-items: center;
+
+    }
+
+    .div {
+        width: 95vw;
+        overflow: scroll;
+    }
+
+    .table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom {
+        width: 95vw;
+    }
+    .applied {
+        width: 95vw;
+        margin-top: 20px;
+
+    }
+    .right {
+        display: flex;
+    }
+    .cards {
+        margin-right: 10px;
+        width: 228px;
+    }
+}
+@media screen and (min-width:913px) and (max-width:1024px) {
+    .bottom {
+        width: 525px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .parent {
+        max-width: 1240px;
+        margin: auto;
+    }
+}
