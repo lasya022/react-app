@@ -206,13 +206,13 @@ function Dashboard() {
                                         <div><img className="profile" src={profile} alt="#" /></div>
 
                                         <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
                                             <p className="Post">Position: <span> Product Manager</span></p>
                                         </div>
 
                                     </div>
 
-                                    <h6 className="Name">Amazon</h6>
+                                    <h6 className="Amazon">Amazon</h6>
                                 </div>
 
                                 <div className="list">
@@ -220,46 +220,33 @@ function Dashboard() {
                                         <div><img className="profile" src={profile} alt="#" /></div>
 
                                         <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
                                             <p className="Post">Position: <span> Product Manager</span></p>
                                         </div>
 
                                     </div>
 
-                                    <h6 className="Name">Amazon</h6>
+                                    <h6 className="Amazon">Amazon</h6>
                                 </div>
                                 <div className="list">
                                     <div className="Details">
                                         <div><img className="profile" src={profile} alt="#" /></div>
 
                                         <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
                                             <p className="Post">Position: <span> Product Manager</span></p>
                                         </div>
 
                                     </div>
 
-                                    <h6 className="Name">Amazon</h6>
+                                    <h6 className="Amazon">Amazon</h6>
                                 </div>
                                 <div className="list">
                                     <div className="Details">
                                         <div><img className="profile" src={profile} alt="#" /></div>
 
                                         <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
-                                            <p className="Post">Position: <span> Product Manager</span></p>
-                                        </div>
-
-                                    </div>
-
-                                    <h6 className="Name">Amazon</h6>
-                                </div>
-                                <div className="list">
-                                    <div className="Details">
-                                        <div><img className="profile" src={profile} alt="#" /></div>
-
-                                        <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
                                             <p className="Post">Position: <span> Product Manager</span></p>
                                         </div>
 
@@ -272,13 +259,26 @@ function Dashboard() {
                                         <div><img className="profile" src={profile} alt="#" /></div>
 
                                         <div>
-                                            <h6 className="Name">Alyson Hanger</h6>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
                                             <p className="Post">Position: <span> Product Manager</span></p>
                                         </div>
 
                                     </div>
 
-                                    <h6 className="Name">Amazon</h6>
+                                    <h6 className="Amazon">Amazon</h6>
+                                </div>
+                                <div className="list">
+                                    <div className="Details">
+                                        <div><img className="profile" src={profile} alt="#" /></div>
+
+                                        <div>
+                                            <h6 className="Profile-Name">Alyson Hanger</h6>
+                                            <p className="Post">Position: <span> Product Manager</span></p>
+                                        </div>
+
+                                    </div>
+
+                                    <h6 className="Amazon">Amazon</h6>
                                 </div>
                             </div>
                         </div>
