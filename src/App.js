@@ -1,11 +1,11 @@
 import Dashboard from './Components/Dashboard/Dashboard';
-import UserTable from './Components/UserTable';
+// import UserTable from './Components/UserTable';
 
 function App() {
   return (
     <div className="App">
-     {/* <Dashboard/> */}
-     <UserTable />
+     <Dashboard/>
+     {/* <UserTable /> */}
     </div>
   );
 }

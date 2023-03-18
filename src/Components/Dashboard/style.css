@@ -11,19 +11,19 @@
     height: 101px;
     margin-top: 10px;
 }
-.parent {
+.Dashboard-Container {
     margin-left: 10px;
 }
-.header {
+.Cards-Container {
     display: flex;
 
 }
-.imagediv {
+.Image-Content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.first-box {
+.card-detail {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -40,7 +40,7 @@
     align-items: center;
     background: #DCC0EC;
 }
-.eight {
+.number-container {
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 600;
@@ -48,7 +48,7 @@
     line-height: 38px;
     color: rgba(0, 0, 0, 0.6);
 }
-.imag {
+.symbol-image {
     margin-top: -13px;
     margin-left: 11px;
 }
@@ -88,12 +88,12 @@
 .Amazon {
     margin-left: 19px;
 }
-.min-divs {
+.image-text-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.wrap {
+.Company-Details {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,12 +102,12 @@
 .imge {
     border-radius: 4px;
 }
-.sidearrow1 {
+.sidearrow-sign {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.onboard {
+.onboarding-date {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
@@ -124,7 +124,7 @@
     border-radius: 12px;
 }
 
-.title {
+.Name{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -139,10 +139,10 @@
     align-items: center;
     margin-top: 24px;
 }
-.extra {
+.Details{
     display: flex;
 }
-.Position {
+.Post {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -154,37 +154,39 @@
 span {
     color: black !important;
 }
-.main {
+.main-container {
     display: flex;
     margin-top: 40px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
-.left {
-    margin-right: 20px;
+.left-container {
+    margin-right: -70px;
+    margin-left: -55px;
+
 }
-.inner {
+.Candidate-Details {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bottom {
+.content-container {
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     width: 634px;
     padding: 15px;
 }
-.bottom-p {
+.content-titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 /* Table */
-.div {
+.table-details {
     box-sizing: border-box;
     margin-top: 24px;
-    height: 330px;
+    height: 337px;
     width: 1036px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -204,7 +206,7 @@ span {
     line-height: 22px;
     color: #000000;
 }
-.btns {
+.buttons {
     padding: 7px;
     color: #66D7D1;
     background: #E6FFFE;
@@ -216,7 +218,7 @@ span {
     font-size: 12px;
     line-height: 16px;
 }
-.ViewAllParagraph {
+.Table-Paragraph {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -224,24 +226,27 @@ span {
     line-height: 16px;
     color: rgba(0, 0, 0, 0.6);
 }
-.View-All {
+.Table-div {
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-.img1 {
+.Table-image{
     margin-left: 6px;
-    margin-top: 5px;
+    margin-top: 2px;
+}
+.table-container{
+    margin-left: 109px;
 }
 /* Responsive Properties */
 @media screen and (max-width:912px) {
-    .header {
+    .Dashboard-Container {
         overflow: scroll;
         align-items: center;
 
     }
 
-    .div {
+    .table-details {
         width: 95vw;
         overflow: scroll;
     }
@@ -251,7 +256,7 @@ span {
         justify-content: center;
         align-items: center;
     }
-    .bottom {
+    .content-container {
         width: 95vw;
     }
     .applied {
@@ -259,7 +264,7 @@ span {
         margin-top: 20px;
 
     }
-    .right {
+    .right-container {
         display: flex;
     }
     .cards {
@@ -268,12 +273,12 @@ span {
     }
 }
 @media screen and (min-width:913px) and (max-width:1024px) {
-    .bottom {
+    .content-container {
         width: 525px;
     }
 }
 @media screen and (min-width:1280px) {
-    .parent {
+    .Cards-Container {
         max-width: 1240px;
         margin: auto;
     }
